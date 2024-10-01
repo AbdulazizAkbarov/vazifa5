@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteiner{
+    margin: auto;
+    padding:auto;
+    width: 1550px;
+    padding: 35px 0;
+
+}
+
+header ul{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    justify-content: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #957554;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+/*HEADER Tugashi*/
+
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav input{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}
+
+nav select{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+
+}
+
+nav button{
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 6px;
+    background: #DFAA5B;
+    color: white;
+    
+}
+
+/*NAV Tugadi*/
+
+main{
+    background-image: url("./photo.png");
+    height:790px;
+    width: 1519px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: -2px;
+}
+
+main h1{
+    padding-top: 350px;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+main p {
+color: white;
+text-align: center;
+font-size: 24px;
+padding-bottom: 30px;
+}
+
+main button{
+    padding: 20px 100px;
+    color: white;
+    background-color: #DFAA5B;
+    border: none;
+    border-radius: 6px;
+
+
+}
+
+.wrapper{
+    text-align: center;
+    
+}
+
+.fasilites{
+    background-color: white;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    bottom: -150px;
+    left: 160px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    padding: 15px;
+   
+}
+
+
+
+.fasilites h2{
+    margin-top: 30px;
+    color: #957554;
+    font-size:50px;
+}
+
+.fas{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+
+}
+
+.kit p{
+
+    color:#957554;
+}
+
+.kit{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.rasm1{
+    background-image: url("./rasm1.png");
+    width: 630px;
+    height: 500px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.rasm1 h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+.rasm1 button{
+    color: white;
+    background-color: #DFAA5B;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 50px;
+}
+
+
+.rasm2{
+    background-image: url("./rasm2.png");
+    width: 630px;
+    height: 500px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.rasm2 h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+.rasm2 button{
+    color: white;
+    background-color: #DFAA5B;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 50px;
+}
+
+
+.rasm3{
+    background-image: url("./rasm3.png");
+    width: 630px;
+    height: 500px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.rasm3 h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+.rasm3 button{
+    color: white;
+    background-color: #DFAA5B;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 50px;
+}
+
+
+.rasm4{
+    background-image: url("./rasm4.png");
+    width: 630px;
+    height: 500px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.rasm4 h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+.rasm4 button{
+    color: white;
+    background-color: #DFAA5B;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 50px;
+}
+
+footer{
+    padding: 55px;
+    margin-top: 80px;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+
+.table2 p{
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+    
+}
+
+.table3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.5s linear;
+
+}
